@@ -5,7 +5,7 @@
 #---------------------------------------------------------------------------------
 # CHange the app value to your site name. (i.e. sitename to have sitename.fly.io
 #---------------------------------------------------------------------------------
-app = "CHANGE ME TO YOUR SITE NAME!"
+app = "mookypod" 
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
@@ -18,13 +18,13 @@ processes = []
 
 [env]
 # A passphrase that must be at least 12 characters long. Avoid 'special' characters, which can cause problems in some cases.
-API_SECRET="CHANGE ME!"
+API_SECRET="Grenouille1408"
 
 # Preferred BG units for the site: 'mg/dl' or 'mmol/l' (or just 'mmol').
 DISPLAY_UNITS="mg/dl"
 
 # The MongoDB Connection String to connect to your MongoDB cluster. If you don't have this from MongoDB Atlas, please re-read installation instructions at https://nightscout.github.io/vendors/mongodb/atlas/ before continuing.
-MONGODB_URI="mongodb+srv:// CHANGE ME!"
+MONGODB_URI="mongodb+srv://nightscout:<password>@cluster0.pckwi.mongodb.net/?retryWrites=true&w=majority"
 
 #
 # If you want Nightscout to get BG readings from Dexcom Share you must enter your account credentials
